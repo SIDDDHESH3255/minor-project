@@ -53,7 +53,7 @@ public class TimerClockApp extends JFrame {
         JButton stopButton = new JButton("Stop Timer");
         JButton resumeButton = new JButton("Resume Timer");
         JButton resetButton = new JButton("Reset Timer");
-        JButton timeFormatButton = new JButton("Toggle Time Format");
+        JButton timeFormatButton = new JButton("Change Time Format");
 
         Font buttonFont = new Font("Arial", Font.PLAIN, 24); // Set font size for buttons
         startButton.setFont(buttonFont);
